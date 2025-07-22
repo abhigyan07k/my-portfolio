@@ -1,0 +1,88 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "I build responsive, accessible web interfaces using HTML, CSS, JavaScript, and React to create fast, clean user experiences."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "I develop secure, scalable server-side systems using Node.js, Express, and databases like MongoDB and MySQL."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "I design intuitive and engaging user experiences with Figma, focusing on usability, user flow, and modern interface aesthetics."
+    },
+    {
+      "id": "4",
+      "src": "./img/icon-video.png",
+      "title": "Video Editing",
+      "description": "I edit videos using VN, CapCut, and DaVinci Resolve to create impactful, engaging content for social media and marketing."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/zerodha-img.png",
+      "title": "Zerotha Clone",
+      "description": "A professional Zerodha clone built with React Router, featuring a responsive and intuitive real-time trading interface UI.",
+      "link": "View In Github",
+      "Ref": "https://github.com/abhigyan07k/zerodha_clone"
+    },
+    {
+      "id": "2",
+      "src": "./img/calculator-img.png",
+      "title": "Web Calculator",
+      "description": "A responsive web calculator built with HTML, CSS, and JavaScript to perform essential arithmetic operations efficiently.",
+      "link": "View In Github",
+      "Ref": "https://github.com/abhigyan07k/Web-Calculator"
+    },
+    {
+      "id": "3",
+      "src": "./img/spotify-img.png",
+      "title": "Spotify UI Clone",
+      "description": "A visually appealing Spotify clone designed using HTML and CSS, replicating the core layout and user interface of the original app.",
+      "link": "View In Github",
+      "Ref": "https://github.com/abhigyan07k/spotify-clone"
+    },
+    {
+      "id": "4",
+      "src": "./img/Upcoming.png",
+      "title": "AirBnb Clone",
+      "description": "A full-stack Airbnb clone featuring listings, booking flow, and user authentication. Currently under development.",
+      "link": "Coming Soon",
+      "Ref": ""
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
