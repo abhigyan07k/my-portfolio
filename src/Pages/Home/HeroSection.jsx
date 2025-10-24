@@ -2,6 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import heroImg from "../../img/hero-section-image.png";
 
 export default function HeroSection() {
   return (
@@ -40,7 +41,7 @@ export default function HeroSection() {
           </button>
           <button className="download-btn">
             <a
-              href="https://drive.google.com/file/d/13AkcUV_CM_a3LZTTMe-CcFh-6dlIJBch/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1ry4Pv8h0DuGwsTY5XCeqXlvbO0bNUEZ1/view?usp=sharing "
               target="blank"
             >
               Download CV <FontAwesomeIcon icon={faDownload} />
@@ -49,11 +50,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hero--section--img">
-        <img
-          src="./img/hero-section-image.png"
-          alt="Hero Section"
-          style={{ width: "85%" }}
-        />
+        <img src={heroImg} alt="Hero Section" style={{ width: "85%" }} />
       </div>
     </section>
   );

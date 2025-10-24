@@ -1,16 +1,13 @@
 import { Link } from "react-scroll";
 import React from "react";
+import logo from "../../img/image.png";
 
 function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img
-            src="./img/image.png"
-            alt="Logoipsum"
-            style={{ width: "50px" }}
-          />
+          <img src={logo} alt="Logoipsum" style={{ width: "50px" }} />
         </div>
         <div className="footer--items">
           <ul>

@@ -4,10 +4,12 @@ import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
+import Navbar from "../NavBar";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <HeroSection />
       <AboutMe />
       <MySkills />

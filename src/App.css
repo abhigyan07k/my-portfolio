@@ -217,7 +217,7 @@ h2 {
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 20px;
 }
 /* Section Titles Ends */
 
@@ -271,7 +271,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 133.333px 85.333px 133.333px;
-
+  text-align: left;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -307,7 +307,9 @@ h2 {
   color: var(--darkblue);
   font-size: 20px;
   font-weight: 400;
-  line-height: 36px;
+  text-align: left;
+  /* text-align-last: justify; */
+  line-height: 25px;
 }
 .hero--section--img {
   display: flex;
@@ -324,7 +326,7 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 5rem 3%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -341,7 +343,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .skills--section--card {
   display: flex;
@@ -355,6 +357,8 @@ h2 {
   min-height: 250px;
 }
 .skills--section--card:hover {
+  background-color: #87c9f0;
+  color: #fff;
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
@@ -395,7 +399,7 @@ h2 {
 /* About Us */
 .about--section {
   display: grid;
-  padding: 133.3px 85.3px;
+  padding: 5rem 3%;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
@@ -414,7 +418,7 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
+  padding: 5rem 3%;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -427,17 +431,21 @@ h2 {
 }
 .portfolio--container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.3px;
 }
 .portfolio--section--container {
-  display: flex;
+  display: grid;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 42.6px;
+  gap: 32px;
   width: 100%;
+  grid-template-columns: repeat(3, 1fr);
 }
+
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
@@ -448,21 +456,26 @@ h2 {
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
+  flex: 0 0 calc(33.333% - 28.4px);
   align-items: flex-start;
-  gap: 32px;
+  gap: 22px;
   flex: 1 0 0;
-  background: #fff;
+  background: var(--bg-shade);
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 12px;
+}
+
+.portfolio--section--card:hover {
+  background-color: #87c9f0;
+  border-bottom: 4px solid var(--primary);
 }
 .portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 22px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 22px;
   align-self: stretch;
 }
 .portfolio--section--title {
@@ -479,51 +492,13 @@ h2 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+
+.portfolio--link {
+  display: flex;
+  justify-content: flex-start;
+}
 /* Portfolio Ends */
 
-/* Testimonial */
-.testimonial--section {
-  display: flex;
-  padding: 112px 84.3px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-  background-color: var(--bg-shade);
-}
-.sections--heading {
-  color: var(--heading-color);
-}
-.testimonial--section--card {
-  display: flex;
-  padding: 42.6px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 42.6px;
-  flex: 1 0 0;
-  border-radius: 8px;
-  border: 1.33px solid #006b6a;
-}
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
-  gap: 5.33px;
-}
-.testimonial--section--card--author--detail {
-  display: flex;
-  align-items: center;
-  gap: 21.3px;
-}
-.testimonial--author--name {
-  font-weight: 600;
-  color: var(--heading-color);
-}
-.testimonial--author--designation {
-  color: var(--darkblue);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-}
-/* Testimonial Ends */
 .contact--section {
   display: flex;
   padding: 150px 85px;
@@ -725,7 +700,6 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .skills--section,
-  .testimonial--section,
   .contact--section,
   .footer--container {
     gap: 20px;
@@ -737,9 +711,7 @@ input[type="checkbox"] {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .testimonial--section--card {
-    padding: 25px;
-  }
+
   .hero--section--title,
   .skills--section--heading,
   .sections--heading {
@@ -764,6 +736,12 @@ input[type="checkbox"] {
   }
   .divider {
     margin: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio--section--card {
+    flex: 0 0 100%; /* Full width on mobile */
   }
 }
 

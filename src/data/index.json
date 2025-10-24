@@ -2,36 +2,49 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "icon": "FaCode",
       "title": "Front-End",
       "description": "I build responsive, accessible web interfaces using HTML, CSS, JavaScript, and React to create fast, clean user experiences."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "icon": "FaServer",
       "title": "Back-End",
       "description": "I develop secure, scalable server-side systems using Node.js, Express, and databases like MongoDB and MySQL."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "icon": "FaPenFancy",
       "title": "UI & UX Design",
       "description": "I design intuitive and engaging user experiences with Figma, focusing on usability, user flow, and modern interface aesthetics."
     },
     {
       "id": "4",
-      "src": "./img/icon-video.png",
+      "icon": "FaVideo",
       "title": "Video Editing",
       "description": "I edit videos using VN, CapCut, and DaVinci Resolve to create impactful, engaging content for social media and marketing."
+    },
+    {
+      "id": "5",
+      "icon": "FaProjectDiagram",
+      "title": "API Integration",
+      "description": "I connect your web apps with external services and APIs for seamless functionality. So your app works smarter, faster, and keeps everything in sync."
+    },
+
+    {
+      "id": "6",
+      "icon": "FaCloud",
+      "title": "Hosting & Optimizaion",
+      "description": "I deploy your websites on platforms like Vercel or Netlify and fine-tune performance. Ensuring your site loads quickly and runs smoothly for everyone."
     }
   ],
   "portfolio": [
     {
-      "id": "1",
+      "id": "4",
       "src": "./img/zerodha-img.png",
-      "title": "Zerotha Clone",
+      "title": "Zerodha Clone",
       "description": "A professional Zerodha clone built with React Router, featuring a responsive and intuitive real-time trading interface UI.",
-      "link": "View In Github",
+      "link": "View In GitHub",
       "Ref": "https://github.com/abhigyan07k/zerodha_clone"
     },
     {
@@ -39,50 +52,33 @@
       "src": "./img/calculator-img.png",
       "title": "Web Calculator",
       "description": "A responsive web calculator built with HTML, CSS, and JavaScript to perform essential arithmetic operations efficiently.",
-      "link": "View In Github",
+      "link": "View In GitHub",
       "Ref": "https://github.com/abhigyan07k/Web-Calculator"
     },
-    {
-      "id": "3",
-      "src": "./img/spotify-img.png",
-      "title": "Spotify UI Clone",
-      "description": "A visually appealing Spotify clone designed using HTML and CSS, replicating the core layout and user interface of the original app.",
-      "link": "View In Github",
-      "Ref": "https://github.com/abhigyan07k/spotify-clone"
-    },
-    {
-      "id": "4",
-      "src": "./img/Upcoming.png",
-      "title": "AirBnb Clone",
-      "description": "A full-stack Airbnb clone featuring listings, booking flow, and user authentication. Currently under development.",
-      "link": "Coming Soon",
-      "Ref": ""
-    }
-  ],
-  "testimonial": [
+
     {
       "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "src": "./img/Upcoming.png",
+      "title": "AirBnb Clone",
+      "description": "A full-stack Airbnb clone project featuring dynamic property listings and secure user authentication.Currently under active development.",
+      "link": "Coming Soon!",
+      "Ref": ""
     },
     {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "id": "5",
+      "src": "./img/Upcoming.png",
+      "title": "CashGyan Finance Tracker",
+      "description": "A full-stack personal finance tracker built React, Node.js, Express, and MongoDB.It helps to manage expenses with an intuitive dashboard and clean UI.",
+      "link": "View In GitHub",
+      "Ref": "https://github.com/abhigyan07k/CASHGYAN---Personal-Finance-Tracker"
     },
     {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "id": "6",
+      "src": "./img/Upcoming.png",
+      "title": "Web Design",
+      "description": "Created posters, banners, and social media creatives using Figma & Canva, focusing on color theory and visual hierarchy.",
+      "link": "View In PDF",
+      "Ref": "https://drive.google.com/drive/folders/1-1wijAmiphYqhaVJk9N8WQqV8ly8i1Pl?usp=sharing"
     }
   ]
 }

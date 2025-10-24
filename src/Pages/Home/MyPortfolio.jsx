@@ -1,4 +1,13 @@
 import data from "../../data/index.json";
+import zerodhaImg from "../../img/zerodha-img.png";
+import webCal from "../../img/calculator-img.png";
+import upComing from "../../img/Upcoming.png";
+
+const portfolioImg = {
+  "zerodha-img(1).png": zerodhaImg,
+  "calculator-img.png": webCal,
+  "Upcoming.png": upComing,
+};
 
 export default function MyPortfolio() {
   return (
@@ -8,7 +17,7 @@ export default function MyPortfolio() {
           <p className="sub--title">Recent Projects</p>
           <h2 className="section--heading">My Portfolio</h2>
         </div>
-        <div>
+        <div className="portfolio--link">
           <a
             href="https://github.com/abhigyan07k"
             target="_blank"
@@ -39,7 +48,7 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              {portfolioImg[item.src]}
             </div>
             <div className="portfolio--section--card--content">
               <div>
